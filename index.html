@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <h2>URL Shortener</h2>
+    </div>
+    <div class="container text-center">
+        <form action="/api/shorturl" method="POST">
+            <label for="url">URL:</label>
+            <input type="text" name='url' placeholder="https://murtazaaylak.com" class="form-control m-3">
+            <button type="submit" class="btn btn-dark">Shorten</button>
+        </form>
+    </div>
+    <footer class="text-center">
+        designed by <a class='text-danger' href="https://github.com/murtazaaylak">murtazaaylak</a>
+    </footer>
+</body>
+
+</html>
